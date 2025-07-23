@@ -19,7 +19,7 @@ You might not have any s3 bucket create, if you do, that is even better.
 - You will be automatically directed to the ``General purpose buckets`` section. Click on ``Create bucket``.
 
 - The name of your s3 bucket has to be globally unique (No two AWS accounts should have the same s3 bucket name). I name mine ``dcyberguy.local``.
-It is advisable when creating a static website to name your bucket is this format, <<bucket>>-<<name>>.<<someRandomStuff>>
+It is advisable when creating a static website to name your bucket is this format, ``<<bucket>>-<<name>>.<<someRandomStuff>>``
 
 - Under ``Block Public Access settings for this bucket``. Uncheck the ``Block all public access`` and acknowledge at the bottom. This would make you s3 bucket access to the entire public (😧scary, right). We do have a s3 bucket that wwould only restrict the public to just "Read Access"
 
@@ -78,6 +78,6 @@ The ``Principal`` is ``*``, that means basically everyone
 The ``Action`` is ``s3:GetObject`` means only being to Read (GET)
 The ``Resource`` is your S3 bucket
 
-Go to your browser and goto <YOUR-S3-BUCKET-NAME>. Your Static website is LIVE 🔥
+Go to your browser and goto ``YOUR-S3-BUCKET-NAME``. Your Static website is LIVE 🔥
 
 
