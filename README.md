@@ -23,7 +23,7 @@ This project setup is to show how you can use the Amazon s3 bucket as a static w
 - `README.md`: Overview and instructions
 
 ## 📸 Screenshots
-![static-website](/images/static-website.png)
+![static-website](/Images/static-website.PNG)
 
 ## 📚 Learnings
 At the end of this project, you will learn
